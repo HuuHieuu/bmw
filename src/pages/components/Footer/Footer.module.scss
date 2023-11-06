@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  height: 300px;
+  background-color: #e6e6e6;
+}
+
+.container .content {
+  display: flex;
+  width: 94%;
+  justify-content: flex-start;
+  margin-top: 65px;
+}
+
+.container .content .contact {
+  width: 370px;
+  margin-top: 14px;
+}
+
+.container .content .contact .contact-phone {
+  font-size: 29px;
+  margin-top: 18px;
+  color: #333;
+}
+
+.container .content .contact h2:first-child {
+  border-bottom: 1px solid;
+}
+
+@media (max-width: 768px) {
+  .container .content .content-logo {
+    height: 34%;
+    padding-top: 32px;
+  }
+  .container .content .contact .contact-hotline {
+    font-size: 22px;
+  }
+  .container .content .contact .contact-phone {
+    font-size: 22px;
+  }
+  .container .content .contact .fanpage {
+    font-size: 17px;
+    margin-top: 7px;
+  }
+  .container .content .contact .fanpage .fb-logo {
+    height: 30px;
+  }
+}

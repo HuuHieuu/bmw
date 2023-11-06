@@ -1,0 +1,69 @@
+.general {
+  margin-top: 140px;
+}
+
+.general-sv {
+  display: flex;
+  justify-content: center;
+}
+
+.general-sv .sv-1 {
+  margin: 20px 20px;
+}
+
+.sv-1 {
+  width: 253px;
+  height: 317px;
+  padding: 15px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.sv-1:hover {
+  cursor: pointer;
+}
+
+.sv-title {
+  margin: 10px 0;
+}
+
+.sv-title h2 {
+  font-size: 35px;
+}
+
+.sv-image img {
+  width: 100%;
+}
+
+.ul-hover-effect a.discover-link {
+  color: #000000; /* Màu chữ mặc định */
+  transition: color 0.3s; /* Áp dụng hiệu ứng chuyển đổi cho màu chữ */
+}
+
+.ul-hover-effect:hover a.discover-link {
+  color: #0653b6; /* Màu chữ khi hover vào thẻ ul */
+}
+.ul-hover-effect svg {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.ul-hover-effect:hover svg {
+  opacity: 0; /* Độ mờ khi hover (biểu tượng biến mất) */
+  transition: opacity 0.3s; /* Áp dụng hiệu ứng chuyển đổi cho độ mờ */
+}
+
+@media (max-width: 768px) {
+  .general {
+    margin-top: 40px;
+  }
+  .general-sv {
+    flex-direction: column;
+  }
+  .sv-1 {
+    width: 91%;
+  }
+  .sv-title h2 {
+    font-size: 22px;
+  }
+}

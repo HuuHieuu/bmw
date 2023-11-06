@@ -1,0 +1,118 @@
+.bmw-container {
+  width: 1198px;
+  padding: 0 8px;
+  display: flex;
+}
+
+.bmw-container .bmw-content {
+  width: 285px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.bmw-container .bmw-content .card-image .only {
+  width: 285px;
+}
+
+.bmw-container .bmw-content .card-image .bmw-logo-i {
+  width: 27px;
+  height: 15px;
+}
+
+.card-image {
+  margin-bottom: 10px;
+}
+.electricIcon {
+  position: absolute;
+  top: 25%;
+  left: 18%;
+}
+
+.picture {
+  margin-bottom: -33px;
+  position: relative;
+}
+
+.bmw-container .bmw-content .card-entry .card-heading {
+  font-size: 20px;
+}
+
+.card-heading-desc {
+  margin: 5px 0 7px;
+}
+
+.car-container .car-kham-pha-cont .car-kham-pha .kham-pha {
+  height: 100%;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.car-container .car-kham-pha-cont .car-kham-pha:hover {
+  background-color: #0653b6;
+  transition: background-color 0.35s;
+}
+
+// all car
+.car-container {
+  width: 99%;
+  padding: 0 8px;
+}
+
+.car-container .car-kham-pha-cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.car-container .car-kham-pha-cont .car-kham-pha {
+  height: 60px;
+  background-color: #1c69d4;
+  width: 260px;
+  margin-top: 20px;
+  transition: background-color 0.35s;
+}
+
+@media (max-width: 480px) {
+  // all
+  .car-container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .tab-content {
+    width: 100%;
+  }
+
+  .car-container .car-kham-pha-cont .car-kham-pha {
+    height: 55px;
+    background-color: #1c69d4;
+    width: 90%;
+    margin-top: 20px;
+  }
+  .car-container .car-kham-pha-cont .car-kham-pha .kham-pha {
+    font-size: 16px;
+  }
+
+  // bmw
+  .bmw-container {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    align-items: center;
+  }
+  .bmw-container .bmw-content {
+    width: 95%;
+  }
+  .picture img {
+    width: 100%;
+  }
+  .bmw-container .bmw-content .card-image .bmw-logo-i {
+    width: 40px;
+    height: 24px;
+  }
+  .bmw-container .bmw-content .card-image .only {
+    width: 100%;
+  }
+}

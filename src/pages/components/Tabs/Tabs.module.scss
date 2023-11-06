@@ -1,0 +1,104 @@
+.tabs-content {
+  width: 100%;
+  max-width: 100%;
+  padding: 0 160px;
+}
+
+.tabs-content .model-menu {
+  position: relative;
+}
+
+.tabs-content .model-menu .model-nav-holder {
+  height: 80px;
+  margin-bottom: 5px;
+}
+
+.tabs-content .model-menu .model-nav-holder .model-nav {
+  position: relative;
+  height: inherit;
+}
+
+.tabs-content .model-menu .model-nav-holder .model-nav ul {
+  display: flex;
+  list-style-type: none;
+  height: 100%;
+}
+
+.tabs-content .model-menu .model-nav-holder .model-nav ul li button {
+  height: calc(100% - 1px);
+  width: -webkit-fill-available;
+  margin: 0;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  color: #666;
+  transition: all 0.2s ease-in;
+  -webkit-tap-highlight-color: transparent;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.tabs-content .model-menu .model-nav-holder .pad {
+  height: 4px;
+  position: absolute;
+  transition: all 0.35s ease-in-out;
+  background-color: #1c69d4;
+}
+
+// .tabs-content .model-menu .pad2 .pad21 {
+//   height: 4px;
+//   position: absolute;
+//   transition: all 0.35s ease-in-out;
+//   background-color: #1c69d4;
+// }
+
+.hidden {
+  display: none;
+}
+
+// tab-content
+
+.card-image {
+  margin-bottom: 10px;
+}
+.electricIcon {
+  position: absolute;
+  top: 25%;
+  left: 18%;
+}
+
+.picture {
+  margin-bottom: -33px;
+  position: relative;
+}
+
+.card-heading-desc {
+  margin: 5px 0 7px;
+}
+
+.pad.activeTab1 {
+  left: 95.59px;
+  width: 113.35px;
+}
+
+@media (max-width: 480px) {
+  // tab
+  .tabs-content {
+    margin: 0;
+    padding: 0;
+  }
+  .tabs-content .model-menu .model-nav-holder .model-nav ul li button {
+    font-size: 15px;
+  }
+  .tabs-content .model-menu .model-nav-holder .pad {
+    height: 4px;
+    width: 20px;
+  }
+
+  // tab 2
+}
