@@ -1,0 +1,36 @@
+.thongso-container {
+  display: flex;
+  justify-content: center;
+}
+.thongso-container .thongso-content {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 520px) {
+  .thongso-container .thongso-content {
+    width: 100%;
+    flex-direction: column;
+  }
+  .thongso-container .thongso-content .picture img {
+    width: 100%;
+  }
+  .thongso-container .thongso-content .text {
+    width: 100%;
+  }
+}
+
+@media (min-width: 521px) and (max-width: 1024px) {
+  .thongso-container .thongso-content {
+    width: 100%;
+    flex-direction: column;
+  }
+  .thongso-container .thongso-content .picture img {
+    width: 100%;
+  }
+  .thongso-container .thongso-content .text {
+    width: 100%;
+  }
+}

@@ -28,7 +28,7 @@
 }
 
 .sv-title h2 {
-  font-size: 35px;
+  font-size: 22px;
 }
 
 .sv-image img {
@@ -53,7 +53,7 @@
   transition: opacity 0.3s; /* Áp dụng hiệu ứng chuyển đổi cho độ mờ */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 520px) {
   .general {
     margin-top: 40px;
   }
@@ -62,6 +62,37 @@
   }
   .sv-1 {
     width: 91%;
+    height: 343px;
+  }
+  .sv-title h2 {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .general {
+    margin-top: 40px;
+  }
+  .general-sv {
+    flex-wrap: wrap;
+  }
+  .sv-1 {
+    width: 45%;
+  }
+  .sv-title h2 {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 521px) and (max-width: 768px) {
+  .general {
+    margin-top: 40px;
+  }
+  .general-sv {
+    flex-wrap: wrap;
+  }
+  .sv-1 {
+    width: 45%;
   }
   .sv-title h2 {
     font-size: 22px;

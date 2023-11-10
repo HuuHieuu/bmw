@@ -7,7 +7,6 @@ import bmw_ix3 from '~/assets/image/bmw_ix3.webp';
 import bmw_i4 from '~/assets/image/bmw_i4.webp';
 import styles from './BMW_I.module.scss';
 import classNames from 'classnames/bind';
-
 const cx = classNames.bind(styles);
 
 function BMW_I() {
@@ -15,7 +14,7 @@ function BMW_I() {
     <div className={cx('bmw-container')}>
       <div className={cx('bmw-content')}>
         <div className={cx('card-image')} style={{ position: 'relative' }}>
-          <a href="" title="Hiển thị thêm">
+          <a href="/pages/details/i7_detail" title="Hiển thị thêm">
             <div className={cx('electricIcon')}>
               <span>
                 <img src={icon_plugin} alt="plug-in" />
@@ -28,7 +27,7 @@ function BMW_I() {
           <img className={cx('bmw-logo-i')} src={bmw_i} alt="i" />
         </div>
         <div className={cx('card-entry')}>
-          <a href="">
+          <a href="/pages/details/i7_detail">
             <span className={cx('card-heading')}>BMW i7</span>
             <div className={cx('card-heading-desc')}>
               <span style={{ color: '#1c69d4' }}>Chạy điện toàn phần</span>
@@ -40,7 +39,7 @@ function BMW_I() {
       {/* ix3 */}
       <div className={cx('bmw-content')}>
         <div className={cx('card-image')} style={{ position: 'relative' }}>
-          <a href="" title="Hiển thị thêm">
+          <a href="/pages/details/ix3_detail" title="Hiển thị thêm">
             <div className={cx('electricIcon')}>
               <span>
                 <img src={icon_plugin} alt="plug-in" />
@@ -53,7 +52,7 @@ function BMW_I() {
           <img className={cx('bmw-logo-i')} src={bmw_i} alt="i" />
         </div>
         <div className={cx('card-entry')}>
-          <a href="">
+          <a href="/pages/details/ix3_detail">
             <span className={cx('card-heading')}>BMW iX3</span>
             <div className={cx('card-heading-desc')}>
               <span style={{ color: '#1c69d4' }}>Chạy điện toàn phần</span>

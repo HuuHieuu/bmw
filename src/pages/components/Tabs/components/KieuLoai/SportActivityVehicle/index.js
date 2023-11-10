@@ -40,7 +40,7 @@ function SportActivityVehicle() {
             </div>
           </a>
         </div>
-        <div className={cx('card-entry')}>
+        <div className={cx('card-entry', 'card-entry-only')}>
           <a href="">
             <span style={{ fontSize: '20px' }} className={cx('card-heading')}>
               BMW X5

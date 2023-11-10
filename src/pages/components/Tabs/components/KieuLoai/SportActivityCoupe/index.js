@@ -29,7 +29,7 @@ function SportActivityCoupe() {
         </div>
       </div>
 
-      {/* x5 */}
+      {/* x6 */}
       <div className={cx('bmw-content')}>
         <div className={cx('card-image')} style={{ position: 'relative' }}>
           <a href="" title="Hiển thị thêm">
@@ -38,7 +38,7 @@ function SportActivityCoupe() {
             </div>
           </a>
         </div>
-        <div className={cx('card-entry')}>
+        <div className={cx('card-entry', 'card-entry-only')}>
           <a href="">
             <span style={{ fontSize: '20px' }} className={cx('card-heading')}>
               BMW X6

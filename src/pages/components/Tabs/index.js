@@ -76,30 +76,6 @@ function Tabs() {
       setPrevTab2(activeTab2);
       setActiveTab2(tabIndex);
     }
-    // if (tabListRef.current && tabListRef.current.children && tabListRef.current.children[tabIndex]) {
-    //   const tabElement = tabListRef.current.children[tabIndex];
-    //   const tabRect = tabElement.getBoundingClientRect();
-    //   const tabListRect = tabListRef.current.getBoundingClientRect();
-
-    //   const tabWidth = tabRect.width;
-    //   const tabListWidth = tabListRect.width;
-
-    //   if (tabWidth < tabListWidth) {
-    //     // Nếu tổng chiều rộng của các tab nhỏ hơn chiều rộng của tabList
-    //     // Cuộn về bên trái để hiển thị tất cả các tab
-    //     tabElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    //   } else {
-    //     // Nếu tổng chiều rộng của các tab lớn hơn chiều rộng của tabList
-    //     // Kiểm tra xem tab hiện tại có nằm ở giữa không
-    //     const isTabCentered =
-    //       tabRect.left + tabWidth / 2 >= tabListRect.left && tabRect.right - tabWidth / 2 <= tabListRect.right;
-
-    //     if (!isTabCentered) {
-    //       // Nếu tab không ở giữa, cuộn sang phải để hiển thị phần còn lại
-    //       tabElement.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'end' });
-    //     }
-    //   }
-    // }
   };
 
   const handleTabClick3 = (tabIndex) => {
@@ -131,7 +107,12 @@ function Tabs() {
     width: activeTab === 0 ? '80.86px' : '90.52px',
   };
 
-  const spanStyleToUse = screenWidth < 768 ? spanStyleMobile : spanStyle;
+  const spanStyleTablet = {
+    left: activeTab === 0 ? '0' : '96.52px',
+    width: activeTab === 0 ? '96.52px' : '102.52px',
+  };
+
+  const spanStyleToUse = screenWidth < 768 ? spanStyleMobile : screenWidth < 1024 ? spanStyleTablet : spanStyle;
 
   const tabButtonStyle = (activeTab2, tabIndex) => {
     return {
@@ -146,7 +127,16 @@ function Tabs() {
       fontSize: activeTab2 === tabIndex ? '17px' : '15px',
     };
   };
-  const tabButtonToUse = screenWidth < 768 ? tabButtonStyleMobile : tabButtonStyle;
+
+  const tabButtonStyleTablet = (activeTab2, tabIndex) => {
+    return {
+      fontWeight: activeTab2 === tabIndex ? 'bold' : 'normal',
+      fontSize: activeTab2 === tabIndex ? '19px' : '17px',
+    };
+  };
+
+  const tabButtonToUse =
+    screenWidth < 768 ? tabButtonStyleMobile : screenWidth < 1024 ? tabButtonStyleTablet : tabButtonStyle;
 
   return (
     <div className={cx('tabs-content')}>

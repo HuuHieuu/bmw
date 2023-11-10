@@ -28,7 +28,7 @@
   border-bottom: 1px solid;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 520px) {
   .container .content .content-logo {
     height: 34%;
     padding-top: 32px;
@@ -41,6 +41,25 @@
   }
   .container .content .contact .fanpage {
     font-size: 17px;
+    margin-top: 7px;
+  }
+  .container .content .contact .fanpage .fb-logo {
+    height: 30px;
+  }
+}
+
+@media (min-width: 521px) and (max-width: 768px) {
+  .container .content .content-logo {
+    height: 68%;
+  }
+  .container .content .contact .contact-hotline {
+    font-size: 22px;
+  }
+  .container .content .contact .contact-phone {
+    font-size: 36px;
+  }
+  .container .content .contact .fanpage {
+    font-size: 21px;
     margin-top: 7px;
   }
   .container .content .contact .fanpage .fb-logo {

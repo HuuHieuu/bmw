@@ -1,0 +1,263 @@
+.detail-container .detail-content {
+  position: relative;
+}
+
+.detail-container .detail-content img {
+  width: 100%;
+}
+
+.detail-container .detail-content .text-overlay {
+  position: absolute;
+  top: 12%;
+  left: 5%;
+}
+
+.detail-container .detail-content .text-overlay .logo-i-hidden {
+  display: none;
+}
+
+.detail-container .detail-content .text-overlay .text-overlay-title {
+  color: white;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.detail-container .detail-content .text-overlay .text-overlay-desc {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 100;
+  padding-top: 15px;
+  padding-left: 5px;
+}
+
+// bot
+.detail-container .detail-content .text-overlay-bot {
+  position: absolute;
+  bottom: 6%;
+  left: 5%;
+}
+.detail-container .detail-content .text-overlay-bot .text-overlay-title {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 100;
+}
+.detail-container .detail-content .text-overlay-bot .text-overlay-desc {
+  color: white;
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+
+.detail-container .detail-content .text-overlay-bot2 {
+  position: absolute;
+  bottom: 6%;
+  left: 33%;
+}
+.detail-container .detail-content .text-overlay-bot2 .text-overlay-title {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 100;
+}
+.detail-container .detail-content .text-overlay-bot2 .text-overlay-desc {
+  color: white;
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+
+// text-desc
+.detail-container .description .desc-body .desc-text {
+  padding: 0 147px;
+}
+.detail-container .description .desc-body .desc-text p {
+  font-weight: 100;
+  list-style-type: disc;
+}
+.detail-container .description .desc-body .desc-text ul {
+  padding-left: 16px;
+}
+
+.detail-container .description .desc-body .desc-text ul li {
+  font-weight: 100;
+  list-style-type: disc;
+}
+
+.detail-container .description .desc-body .desc-text h2 {
+  font-weight: 100;
+  margin: 58px 25px 30px;
+}
+
+.detail-container .description .desc-body .desc-text h3 {
+  font-weight: 100;
+  margin: 0 25px;
+}
+
+// responsive
+@media (max-width: 520px) {
+  // top
+  // .detail-container .detail-content .text-overlay {
+  //   top: 109%;
+  // }
+
+  // .detail-container .detail-content .text-overlay .logo-i-hidden {
+  //   display: block;
+  //   width: 17%;
+  // }
+
+  // .detail-container .detail-content .text-overlay .text-overlay-desc {
+  //   // font-size: 14px;
+  //   padding-left: 2px;
+  // }
+  // //img
+  // .detail-container .detail-content .box-shadow {
+  //   overflow: hidden;
+  // }
+  // .detail-container .detail-content .box-shadow img {
+  //   width: 156%;
+  //   margin-left: -50%;
+  // }
+  // .detail-container .detail-content .box-shadow::before {
+  //   content: '';
+  //   position: absolute;
+  //   top: 99%;
+  //   left: 0;
+  //   width: 100%;
+  //   height: 100%;
+  //   background: #333;
+  //   box-shadow: 0 -10px 10px #333;
+  //   z-index: 0; /* Đảm bảo pseudo-element nằm trên hình ảnh */
+  // }
+  // //bot
+  // .detail-container .detail-content .text-overlay-bot {
+  //   bottom: -72%;
+  // }
+
+  // .detail-container .detail-content .text-overlay-bot2 {
+  //   left: 5%;
+  //   bottom: -91%;
+  // }
+
+  // desc
+  .detail-container .description {
+    margin-top: 60%;
+  }
+  .detail-container .description .desc-body .desc-text {
+    padding: 15px;
+  }
+  .detail-container .description .desc-body .desc-text .title-thietke h2 {
+    margin: 58px 0 13px;
+  }
+  .detail-container .description .desc-body .desc-text .title-thietke h3 {
+    margin: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  // top
+  .detail-container .detail-content .text-overlay {
+    top: 109%;
+  }
+
+  .detail-container .detail-content .text-overlay .logo-i-hidden {
+    display: block;
+    width: 17%;
+  }
+
+  .detail-container .detail-content .text-overlay .text-overlay-desc {
+    // font-size: 14px;
+    padding-left: 2px;
+  }
+  //img
+  .detail-container .detail-content .box-shadow {
+    overflow: hidden;
+  }
+  .detail-container .detail-content .box-shadow img {
+    width: 156%;
+    margin-left: -50%;
+  }
+  .detail-container .detail-content .box-shadow::before {
+    content: '';
+    position: absolute;
+    top: 99%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    box-shadow: 0 -10px 10px #333;
+    z-index: 0; /* Đảm bảo pseudo-element nằm trên hình ảnh */
+  }
+  //bot
+  .detail-container .detail-content .text-overlay-bot {
+    bottom: -72%;
+  }
+
+  .detail-container .detail-content .text-overlay-bot2 {
+    left: 5%;
+    bottom: -91%;
+  }
+
+  // desc
+  .detail-container .description .desc-body .desc-text .title-thietke h2 {
+    margin: 58px 0 13px;
+  }
+  .detail-container .description .desc-body .desc-text .title-thietke h3 {
+    margin: 0;
+  }
+}
+
+@media (min-width: 521px) and (max-width: 1024px) {
+  .detail-container .detail-content .text-overlay .overlay-flex {
+    display: flex;
+  }
+  .detail-container .detail-content .box-shadow img {
+    width: 100%;
+    margin-left: 0;
+  }
+  .detail-container .detail-content .box-shadow::before {
+    height: 87%;
+  }
+  //bot
+  .detail-container .detail-content .text-overlay-bot {
+    bottom: -61%;
+  }
+
+  .detail-container .detail-content .text-overlay-bot2 {
+    left: 5%;
+    bottom: -81%;
+  }
+  // desc
+  .detail-container .description {
+    margin-top: 35%;
+  }
+  .detail-container .description .desc-body .desc-text {
+    padding: 15px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1201px) {
+  .detail-container .detail-content .text-overlay .overlay-flex {
+    display: flex;
+  }
+  .detail-container .detail-content .box-shadow img {
+    width: 100%;
+    margin-left: 0;
+  }
+  .detail-container .detail-content .box-shadow::before {
+    height: 68%;
+  }
+  //bot
+  .detail-container .detail-content .text-overlay-bot {
+    bottom: -46%;
+  }
+
+  .detail-container .detail-content .text-overlay-bot2 {
+    left: 5%;
+    bottom: -61%;
+  }
+  // desc
+  .detail-container .description {
+    margin-top: 28%;
+  }
+  .detail-container .description .desc-body .desc-text {
+    padding: 15px;
+  }
+}
