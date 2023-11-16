@@ -89,12 +89,13 @@ button:hover {
 .tabs-content .model-menu .tab-content-upper .upper-content img {
   width: 100%;
 }
-.tabs-content .model-menu .tab-content-upper .upper-content {
-  opacity: 0;
-  transition: opacity 0.35s ease-in-out;
+
+.tabs-content .model-menu .tab-content-upper .upper-content img {
+  // opacity: 0;
+  transition: all 0.35s ease-in-out;
 }
 
-.tabs-content .model-menu .tab-content-upper .upper-content.active {
+.tabs-content .model-menu .tab-content-upper .upper-content img.active {
   opacity: 1;
 }
 
@@ -106,12 +107,18 @@ button:hover {
 
 .tabs-content .model-menu .tab-content-lower .lower-content {
   display: flex;
+  justify-content: center;
+  flex-grow: 1;
 }
 .tabs-content .model-menu .tab-content-lower .lower-content .lower-img {
-  width: 71%;
-  // border: 1px solid;
+  width: 84%;
   padding: 4px;
 }
+
+.tabs-content .model-menu .tab-content-lower .lower-content .content-image {
+  width: 5%;
+}
+
 .tabs-content .model-menu .tab-content-lower .lower-content .lower-img:hover {
   cursor: pointer;
 }
@@ -121,6 +128,16 @@ button:hover {
 
 .selected {
   border: 2px solid black;
+}
+
+.tabs-content .model-menu .sup-lower .sup-desc-color {
+  margin-top: 20px;
+}
+
+.tabs-content .model-menu .sup-lower .sup-desc-color h4 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 100;
 }
 
 @media (max-width: 520px) {
@@ -139,6 +156,9 @@ button:hover {
     height: 4px;
     width: 20px;
   }
+  .tabs-content .model-menu .model-nav-holder .model-nav ul {
+    justify-content: start;
+  }
 
   //
   .tabs-content .model-menu .model-nav-holder .model-nav .active {
@@ -148,21 +168,22 @@ button:hover {
   .tabs-content .model-menu .model-nav-holder .model-nav li:hover {
     border: none;
   }
+
+  //
+  .tabs-content .model-menu .tab-content-lower .lower-content .lower-img {
+    overflow: auto;
+    padding: 4px;
+  }
+  .tabs-content .model-menu .tab-content-lower .lower-content .content-image {
+    width: 15%;
+  }
 }
 
 @media (min-width: 521px) and (max-width: 1024px) {
-  // .tabs-content {
-  //   margin: 0;
-  //   padding: 15px;
-  // }
-  // .tabs-content .model-menu .model-nav-holder .model-nav ul li button {
-  //   font-size: 19px;
-  // }
-  // .tabs-content .model-menu .model-nav-holder .pad {
-  //   height: 4px;
-  //   width: 20px;
-  // }
   .tabs-content .model-menu .tab-content-upper .upper-content img {
     width: 100%;
+  }
+  .tabs-content .model-menu .tab-content-lower .lower-content .content-image {
+    width: 12%;
   }
 }

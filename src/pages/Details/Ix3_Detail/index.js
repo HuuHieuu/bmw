@@ -4,7 +4,7 @@ import bmw_i from '~/assets/image/bmw_i.png';
 
 //components
 
-import I7_Design from '../components/Design/I7';
+import Ix3_Design from '../components/Design/Ix3';
 
 import styles from '../I7_Detail/I7_Detail.module.scss';
 import classNames from 'classnames/bind';
@@ -26,7 +26,7 @@ function Ix3_Detail() {
       <div className={cx('detail-container')}>
         <div className={cx('detail-content')}>
           <div className={cx('box-shadow')}>
-            <img src={ix3_background} alt="ix3_background" />
+            <img className={cx('box-ix3')} src={ix3_background} alt="ix3_background" />
           </div>
           <div className={cx('text-overlay')}>
             <h1 className={cx('text-overlay-title')}>{text}</h1>
@@ -70,12 +70,12 @@ function Ix3_Detail() {
         <div className={cx('tab-furniture')}>
           <TabFurIx3 />
         </div>
-        {/* <div>
-          <I7_Design />
+        <div>
+          <Ix3_Design />
         </div>
         <div>
           <Footer />
-        </div> */}
+        </div>
       </div>
     </>
   );

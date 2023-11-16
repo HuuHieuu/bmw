@@ -41,17 +41,21 @@ const tabItems = [
   { label: 'Ốp trang trí nội thất' },
 ];
 
-const imgupper = [
-  { src: i7_fur, alt: 'i7_maungoaithat' },
-  { src: i7_mamxe, alt: 'i7_maungoaithat' },
-  { src: i7_chatlieughe, alt: 'i7_maungoaithat' },
-  { src: i7_trangtri, alt: 'i7_maungoaithat' },
-];
+const i7_imgEx = [{ src: i7_fur, alt: 'i7_maungoaithat' }];
+const i7_imgMamXe = [{ src: i7_mamxe, alt: 'i7_maungoaithat' }];
+const i7_imgClg = [{ src: i7_chatlieughe, alt: 'i7_maungoaithat' }];
+const i7_imgTrangtri = [{ src: i7_trangtri, alt: 'i7_maungoaithat' }];
 
-const imageLowerColor = [{ src: i7_maunt, alt: 'i7_mau_ngoai_that' }];
-const imageLowerMamXe = [{ src: i7_mamxe_lower, alt: 'i7_mam_xe' }];
-const imageLowerChatLieuGhe = [{ src: i7_chatlieughe_lower, alt: 'i7_chat_lieu_ghe' }];
-const imageLowerTrangTri = [{ src: i7_trangtri_lower, alt: 'i7_trang_tri' }];
+const imageLowerColor = [{ src: i7_maunt, alt: 'i7_mau_ngoai_that', text: 'Xám Oxide' }];
+const imageLowerMamXe = [
+  { src: i7_mamxe_lower, alt: 'i7_mam_xe', text: 'Mâm khí động học kích thước 21-inch, kiểu 910 BMW Individual' },
+];
+const imageLowerChatLieuGhe = [
+  { src: i7_chatlieughe_lower, alt: 'i7_chat_lieu_ghe', text: "Da BMW Individual 'Merino' Trắng Khói" },
+];
+const imageLowerTrangTri = [
+  { src: i7_trangtri_lower, alt: 'i7_trang_tri', text: 'Nội thất ốp gỗ oak cao cấp màu xám kim loại phủ bóng' },
+];
 
 // design
 const contentData = [
@@ -170,7 +174,10 @@ const thietBiSac = [
 
 export {
   tabItems,
-  imgupper,
+  i7_imgEx,
+  i7_imgMamXe,
+  i7_imgClg,
+  i7_imgTrangtri,
   imageLowerColor,
   imageLowerMamXe,
   imageLowerChatLieuGhe,

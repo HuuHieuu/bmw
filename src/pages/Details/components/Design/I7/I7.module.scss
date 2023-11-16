@@ -4,6 +4,35 @@
   text-align: center;
 }
 
+.ngoai-that h3 {
+  text-align: center;
+  width: 68%;
+  padding: 13px 0;
+}
+
+.ngoai-that2 h1 {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.ngoai-that2 h3 {
+  width: 47%;
+  text-align: center;
+}
+
+.ngoai-that .nt-p {
+  padding: 0 96px;
+  margin: 0 51px;
+  text-align: justify;
+  font-weight: 100;
+}
+.ngoai-that2 .nt-p {
+  padding: 0 96px;
+  margin: 0 51px;
+  text-align: justify;
+  font-weight: 100;
+}
+
 .noi-that h1 {
   font-weight: 400;
   width: 29%;
@@ -98,6 +127,24 @@
   .ngoai-that h1 {
     width: 98%;
   }
+  .ngoai-that h3 {
+    width: 100%;
+  }
+  .ngoai-that .nt-p {
+    padding: 0 31px;
+    margin: 0;
+  }
+  .ngoai-that2 h1 {
+    width: 100%;
+  }
+  .ngoai-that2 h3 {
+    width: 100%;
+  }
+  .ngoai-that2 .nt-p {
+    padding: 0 31px;
+    margin: 0;
+  }
+  //
   .noi-that h1 {
     width: 87%;
   }
@@ -163,6 +210,21 @@
   .ngoai-that h1 {
     width: 100%;
   }
+  .ngoai-that h3 {
+    width: 100%;
+  }
+  .ngoai-that .nt-p {
+    padding: 0 30px;
+  }
+
+  .ngoai-that2 .nt-p {
+    padding: 20px 30px;
+  }
+
+  .ngoai-that2 h3 {
+    width: 100%;
+  }
+
   .noi-that h1 {
     width: 83%;
     // margin-left: -78px;

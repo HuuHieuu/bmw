@@ -1,12 +1,14 @@
 import { contentData, contentData2, contentFlex, vanHanh, quangDuong, thietBiSac } from '../../Data/I7Data';
 import General from '../General';
+import { useRef } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 import i7_noi_that1 from '~/assets/image/i7_noi_that1.jpg';
 import i7_noi_that2 from '~/assets/image/i7_noi_that2.jpg';
 import i7_noi_that3 from '~/assets/image/i7_noi_that3.jpg';
 import i7_noi_that4 from '~/assets/image/i7_noi_that4.jpg';
 import ContentFlex from '../components/contentFlex';
-import ThongSo from '../components/ThongSo';
 import ThongSoI7 from '../components/ThongSo/ThongSoI7';
 
 import classNames from 'classnames/bind';
@@ -21,12 +23,22 @@ const styles = {
 };
 
 function I7() {
+  const contentRef = useRef(null);
+
+  const handleArrowClick = () => {
+    if (contentRef.current) {
+      contentRef.current.scrollBy({
+        left: 100, // Thay đổi giá trị left tùy thuộc vào bước cuộn bạn muốn
+        behavior: 'smooth',
+      });
+    }
+  };
   return (
     <>
       {/* Ngoai that */}
       <div className={cx('ngoai-that')} style={{ marginTop: '85px' }}>
         <h1>KHÔNG GIAN NGOẠI THẤT ĐẦY ĐỦ TRÊN BMW i7.</h1>
-        <General content={contentData} />;
+        <General content={contentData} />
       </div>
       {/* Noi that */}
       <div

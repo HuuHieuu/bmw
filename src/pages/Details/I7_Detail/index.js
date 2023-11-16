@@ -23,7 +23,7 @@ function I7_Detail() {
       <div className={cx('detail-container')}>
         <div className={cx('detail-content')}>
           <div className={cx('box-shadow')}>
-            <img src={the_new_i7} alt="the_new_i7" />
+            <img className={cx('box-i7')} src={the_new_i7} alt="the_new_i7" />
           </div>
           <div className={cx('text-overlay')}>
             <h1 className={cx('text-overlay-title')}>{text}</h1>
