@@ -11,6 +11,7 @@ import BMW_5 from './components/BMW_5';
 import BMW_7 from './components/BMW_7';
 import BMW_8 from './components/BMW_8';
 import BMW_Z4 from './components/BMW_Z4';
+import BMW_XM from './components/BMW_XM';
 // 2
 import Sedan from './components/KieuLoai/Sedan';
 import SportActivityVehicle from './components/KieuLoai/SportActivityVehicle';
@@ -21,9 +22,10 @@ import GranCoupe from './components/KieuLoai/GranCoupe';
 const cx = classNames.bind(styles);
 
 const tabItems = [
-  { label: 'Tất cả' },
+  // { label: 'Tất cả' },
   { label: 'BMW i' },
   { label: 'X' },
+  { label: 'M' },
   { label: '3' },
   { label: '4' },
   { label: '5' },
@@ -227,9 +229,10 @@ function Tabs() {
         {/* content */}
         <div className={cx('tab-content')}>
           {/* Tab1Contents */}
-          {activeTab2 === 0 && activeTab === 0 && <ALL_CAR />}
-          {activeTab2 === 1 && activeTab === 0 && <BMW_I />}
-          {activeTab2 === 2 && activeTab === 0 && <BMW_X />}
+          {/* {activeTab2 === 0 && activeTab === 0 && <ALL_CAR />} */}
+          {activeTab2 === 0 && activeTab === 0 && <BMW_I />}
+          {activeTab2 === 1 && activeTab === 0 && <BMW_X />}
+          {activeTab2 === 2 && activeTab === 0 && <BMW_XM />}
           {activeTab2 === 3 && activeTab === 0 && <BMW_3 />}
           {activeTab2 === 4 && activeTab === 0 && <BMW_4 />}
           {activeTab2 === 5 && activeTab === 0 && <BMW_5 />}

@@ -1,12 +1,12 @@
 .ngoai-that h1 {
   font-weight: 400;
-  width: 68%;
+  // width: 68%;
   text-align: center;
 }
 
 .ngoai-that h3 {
   text-align: center;
-  width: 68%;
+  // width: 68%;
   padding: 13px 0;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .ngoai-that2 h3 {
-  width: 47%;
+  // width: 47%;
   text-align: center;
 }
 
@@ -60,6 +60,19 @@
   position: absolute;
   padding: 0 5px;
   width: 50%;
+}
+.noi-that .khong-gian-nt .kg-nt-5 {
+  position: absolute;
+  padding: 0 5px;
+  width: 25%;
+  bottom: -23%;
+}
+.noi-that .khong-gian-nt .kg-nt-6 {
+  position: absolute;
+  padding: 0 5px;
+  width: 20%;
+  bottom: -17%;
+  left: 66%;
 }
 
 .an-tuong h1 {
@@ -149,7 +162,7 @@
     width: 87%;
   }
   .noi-that .khong-gian-nt {
-    margin-top: 33%;
+    margin-top: 36%;
   }
   .noi-that .khong-gian-nt .kg-nt-1 {
     width: 100%;
@@ -164,6 +177,18 @@
     width: 100%;
     position: relative;
   }
+  .noi-that .khong-gian-nt .kg-nt-5 {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+  }
+  .noi-that .khong-gian-nt .kg-nt-6 {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+
   // ấn tượng
   .an-tuong h1 {
     width: 100%;

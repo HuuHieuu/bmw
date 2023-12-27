@@ -1,0 +1,11 @@
+.mx-container .mx-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mx-container .mx-content .i {
+  width: 80%;
+  margin-top: 5%;
+}

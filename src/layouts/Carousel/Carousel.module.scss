@@ -3,6 +3,10 @@
   height: 70vh;
   width: 100%;
   overflow: hidden;
+  border-top-left-radius: 50px; /* Adjust the radius as needed */
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {

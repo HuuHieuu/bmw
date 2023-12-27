@@ -1,9 +1,9 @@
-import React from 'react';
+import Card from '@mui/material/Card';
+import CardMedia from '@mui/material/CardMedia';
+import React, { useState, useEffect } from 'react';
 import classNames from 'classnames/bind';
 import styles from './TabComponent.module.scss';
-import { sassTrue } from 'sass';
 const cx = classNames.bind(styles);
-
 function TabComponent({
   activeTab,
   activeTabIndex,
@@ -25,52 +25,57 @@ function TabComponent({
   handleImageClick,
   handleImageClickClg,
   handleImageClickOtt,
-  handleImageClickMamXe,
+  css1,
+  css2,
 }) {
   return (
     <div className={cx('tabs-content')}>
       <div className={cx('model-menu')}>
         <div className={cx('tab-content-upper')}>
           {activeTab === 0 && (
-            <div className={cx('upper-content')}>
-              <img
-                key={activeTabIndex}
-                className={cx('upper-img', { active: activeTab === 0 })}
-                src={imgEx[activeTabIndex].src}
+            <Card>
+              <CardMedia
+                component="img"
                 alt={imgEx[activeTabIndex].alt}
+                image={imgEx[activeTabIndex].src}
+                className={cx('upper-img', { active: activeTab === 0 })}
+                style={{ maxHeight: '473px' }}
               />
-            </div>
+            </Card>
           )}
 
           {activeTab === 1 && (
-            <div className={cx('upper-content')}>
-              <img
-                key={activeTabIndex}
-                className={cx('upper-img', { active: activeTab === 1 })}
-                src={imgMamxe[activeTabIndex].src}
+            <Card>
+              <CardMedia
+                component="img"
                 alt={imgMamxe[activeTabIndex].alt}
+                image={imgMamxe[activeTabIndex].src}
+                className={cx('upper-img', { active: activeTab === 1 })}
               />
-            </div>
+            </Card>
           )}
+
           {activeTab === 2 && (
-            <div className={cx('upper-content')}>
-              <img
+            <Card>
+              <CardMedia
                 key={activeTabIndex}
-                className={cx('upper-img', { active: activeTab === 2 })}
-                src={imgClg[activeTabClg].src}
+                component="img"
                 alt={imgClg[activeTabClg].alt}
+                image={imgClg[activeTabClg].src}
+                className={cx('upper-img', { active: activeTab === 2 })}
               />
-            </div>
+            </Card>
           )}
+
           {activeTab === 3 && (
-            <div className={cx('upper-content')}>
-              <img
-                key={activeTabIndex}
-                className={cx('upper-img', { active: activeTab === 3 })}
-                src={imgTrangtri[activeTabOtt].src}
+            <Card>
+              <CardMedia
+                component="img"
                 alt={imgTrangtri[activeTabOtt].alt}
+                image={imgTrangtri[activeTabOtt].src}
+                className={cx('upper-img', { active: activeTab === 3 })}
               />
-            </div>
+            </Card>
           )}
         </div>
         {/*  */}
@@ -101,8 +106,9 @@ function TabComponent({
           {activeTab === 0 && (
             <div className={cx('lower-content')}>
               {imageLowerColor.map((image, index) => (
-                <div className={cx('content-image')}>
+                <div className={cx('content-image')} style={css1}>
                   <img
+                    style={css2}
                     key={index}
                     className={cx('lower-img', { selected: activeTabIndex === index })}
                     src={image.src}

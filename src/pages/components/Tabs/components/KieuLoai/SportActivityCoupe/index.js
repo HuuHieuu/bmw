@@ -10,14 +10,14 @@ function SportActivityCoupe() {
     <div className={cx('bmw-container')}>
       <div className={cx('bmw-content')}>
         <div className={cx('card-image')} style={{ position: 'relative' }}>
-          <a href="" title="Hiển thị thêm">
+          <a href="/pages/details/x4_detail" title="Hiển thị thêm">
             <div className={cx('picture')}>
               <img className={cx('only')} src={bmw_x4} alt="bmw_x4" />
             </div>
           </a>
         </div>
         <div className={cx('card-entry')} style={{ marginTop: '43px' }}>
-          <a href="">
+          <a href="/pages/details/x4_detail">
             <span style={{ fontSize: '20px' }} className={cx('card-heading')}>
               BMW X4
             </span>
@@ -32,14 +32,14 @@ function SportActivityCoupe() {
       {/* x6 */}
       <div className={cx('bmw-content')}>
         <div className={cx('card-image')} style={{ position: 'relative' }}>
-          <a href="" title="Hiển thị thêm">
+          <a href="/pages/details/x6_detail" title="Hiển thị thêm">
             <div className={cx('picture')}>
               <img src={bmw_x6} alt="bmw_x6" />
             </div>
           </a>
         </div>
         <div className={cx('card-entry', 'card-entry-only')}>
-          <a href="">
+          <a href="/pages/details/x6_detail">
             <span style={{ fontSize: '20px' }} className={cx('card-heading')}>
               BMW X6
             </span>

@@ -8,16 +8,16 @@ function BMW_Z4() {
     <div className={cx('bmw-container')}>
       <div className={cx('bmw-content')}>
         <div className={cx('card-image')} style={{ position: 'relative' }}>
-          <a href="" title="Hiển thị thêm">
+          <a href="/pages/details/z4" title="Hiển thị thêm">
             <div className={cx('picture')}>
               <img src={bmw_z4} alt="bmw_z4" />
             </div>
           </a>
         </div>
         <div className={cx('card-entry')}>
-          <a href="">
+          <a href="/pages/details/z4">
             <span style={{ fontSize: '20px' }} className={cx('card-heading')}>
-              THE NEW Z4
+              THE Z4
             </span>
             <div className={cx('card-heading-desc')}>
               <span style={{ color: '#1c69d4' }}>Xăng</span>

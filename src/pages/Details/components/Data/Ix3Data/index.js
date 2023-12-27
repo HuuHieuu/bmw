@@ -197,7 +197,7 @@ const khamPhaCNMoi = [
     alt: 'hệ thống phanh lái',
     textHead: ' HỆ THỐNG PHANH TÁI SINH NĂNG LƯỢNG ',
     textBody:
-      'BMW iX3 sử dụng hệ thống phanh tái sinh năng lượng để tận dụng động năng khi giảm tốc và phanh. Hệ thống này chuyển đổi động năng thành điện năng và lưu trữ vào pin điện áp cao của xe, giúp kéo dài quãng đường đi được. Bạn có thể điều chỉnh mức độ phanh tái sinh năng lượng theo bốn cấp độ khác nhau, để phù hợp với p',
+      'BMW iX3 sử dụng hệ thống phanh tái sinh năng lượng để tận dụng động năng khi giảm tốc và phanh. Hệ thống này chuyển đổi động năng thành điện năng và lưu trữ vào pin điện áp cao của xe, giúp kéo dài quãng đường đi được. Bạn có thể điều chỉnh mức độ phanh tái sinh năng lượng theo bốn cấp độ khác nhau, để phù hợp với phong cách lái xe của bạn và tăng cường sự thoải mái khi lái xe.',
   },
   {
     src: ix3_iconic_sound,

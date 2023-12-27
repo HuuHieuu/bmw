@@ -4,6 +4,7 @@ import { faBars, faHome, faInfoCircle, faCar, faNewspaper, faPhone } from '@fort
 import classNames from 'classnames/bind';
 import styles from './DefaultLayout.module.scss';
 import bmw_logo from '~/assets/image/bmw_logo.png';
+import logo from '~/assets/image/logo/logo1-removebg-preview.png';
 import { useState, useEffect } from 'react';
 import Carousel from '../Carousel';
 
@@ -28,8 +29,10 @@ function DefaultLayout() {
           {/* logo */}
           <div className={cx('logo')}>
             <a href="/">
-              <img src={bmw_logo} alt="logo-bmw" />
-              <span>BMW Hà Nội</span>
+              <div className={cx('logo-b')}>
+                <img src={bmw_logo} alt="logo-bmw" />
+                <span>BMW Hà Nội</span>
+              </div>
             </a>
           </div>
           {/* menu */}
@@ -46,29 +49,17 @@ function DefaultLayout() {
                     Trang chủ
                   </a>
                 </li>
+
                 <li>
-                  <a href="/">
-                    {/* <img src={bmw_logo} alt="logo-bmw" /> */}
-                    <FontAwesomeIcon icon={faInfoCircle} className={cx('icon-menu-open')} />
-                    Giới thiệu
-                  </a>
-                </li>
-                <li>
-                  <a href="/">
+                  <a href="/pages/mau-xe">
                     {/* <img src={bmw_logo} alt="logo-bmw" /> */}
                     <FontAwesomeIcon icon={faCar} className={cx('icon-menu-open')} />
                     Mẫu xe
                   </a>
                 </li>
+
                 <li>
-                  <a href="/">
-                    {/* <img src={bmw_logo} alt="logo-bmw" /> */}
-                    <FontAwesomeIcon icon={faNewspaper} className={cx('icon-menu-open')} />
-                    Tin tức
-                  </a>
-                </li>
-                <li>
-                  <a href="/">
+                  <a href="/pages/contact">
                     {/* <img src={bmw_logo} alt="logo-bmw" /> */}
                     <FontAwesomeIcon icon={faPhone} className={cx('icon-menu-open')} />
                     Liên lạc

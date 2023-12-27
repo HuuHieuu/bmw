@@ -64,7 +64,7 @@ function BMW_I() {
       {/* i4 */}
       <div className={cx('bmw-content')}>
         <div className={cx('card-image')} style={{ position: 'relative' }}>
-          <a href="" title="Hiển thị thêm">
+          <a href="/pages/details/i4_detail" title="Hiển thị thêm">
             <div className={cx('electricIcon')}>
               <span>
                 <img src={icon_plugin} alt="plug-in" />
@@ -77,7 +77,7 @@ function BMW_I() {
           <img className={cx('bmw-logo-i')} src={bmw_i} alt="i" />
         </div>
         <div className={cx('card-entry')}>
-          <a href="">
+          <a href="/pages/details/i4_detail">
             <span className={cx('card-heading')}>BMW i4</span>
             <div className={cx('card-heading-desc')}>
               <span style={{ color: '#1c69d4' }}>Chạy điện toàn phần</span>

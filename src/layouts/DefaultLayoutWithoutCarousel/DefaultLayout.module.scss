@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Roboto+Slab:wght@300&family=Roboto:wght@300;400&display=swap');
+
 .header {
   width: 100%;
   height: 60px;
@@ -14,6 +16,19 @@
 
 .header .navbar .logo {
   margin-right: 60px;
+}
+
+.header .navbar .logo .logo-b {
+  display: flex;
+  align-items: center;
+}
+
+.header .navbar .logo .logo-b span {
+  margin-left: -8px;
+  font-size: 20px;
+  font-family: 'Alegreya', serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 .header .navbar .logo a {
@@ -51,6 +66,7 @@
   }
 
   .header .nav-menu ul {
+    font-size: 1.3rem;
     flex-direction: column;
     width: 100%;
     height: 37%;

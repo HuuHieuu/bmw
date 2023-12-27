@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import bmw_x7 from '~/assets/image/bmw_x7.png';
 import img1 from '~/assets/image/img1.jpeg';
+import back1 from '~/assets/image/logo/back1.png';
 import background from '~/assets/image/background.jpeg';
 import styles from './Carousel.module.scss';
 import classNames from 'classnames/bind';
 const cx = classNames.bind(styles);
 
-const images = [background, img1, bmw_x7];
+const images = [background, img1, back1];
 
 function Carousel() {
   const [activeIndex, setActiveIndex] = useState(0);

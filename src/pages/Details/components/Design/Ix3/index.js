@@ -14,12 +14,12 @@ const styles = {
   },
 };
 
-function Ix3() {
+function iX3() {
   return (
     <>
       {/* Ngoai that */}
       <div className={cx('ngoai-that')} style={{ marginTop: '85px' }}>
-        <h1>THIẾT KẾ MỚI THỂ THAO VÀ ĐỘC ĐÁO CỦA BMW iX3.</h1>
+        <h1>THIẾT KẾ MỚI THỂ THAO VÀ ĐỘC ĐÁO CỦA BMW iX3</h1>
         <h3>BMW iX3 THUẦN ĐIỆN - CHIẾC XE MANG ĐẾN THIẾT KẾ THỂ THAO VÀ ĐIỆN ĐỘC ĐÁO</h3>
         <p className={cx('nt-p')}>
           Với những đường nét sắc sảo ở những đường viền, BMW iX3 đã tạo ấn tượng mạnh mẽ và khó quên. Các chi tiết màu
@@ -88,4 +88,4 @@ function Ix3() {
   );
 }
 
-export default Ix3;
+export default iX3;

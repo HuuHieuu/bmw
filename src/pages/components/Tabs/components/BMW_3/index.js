@@ -9,16 +9,16 @@ function BMW_3() {
     <div className={cx('bmw-container')}>
       <div className={cx('bmw-content')}>
         <div className={cx('card-image')} style={{ position: 'relative' }}>
-          <a href="/" title="Hiển thị thêm">
+          <a href="/pages/details/3_series" title="Hiển thị thêm">
             <div className={cx('picture')}>
               <img src={bmw_3} alt="bmw_3" />
             </div>
           </a>
         </div>
         <div className={cx('card-entry')}>
-          <a href="">
+          <a href="/pages/details/3_series">
             <span style={{ fontSize: '20px' }} className={cx('card-heading')}>
-              THE NEW 3
+              BMW 3 Series
             </span>
             <div className={cx('card-heading-desc')}>
               <span style={{ color: '#1c69d4' }}>Xăng</span>

@@ -8,14 +8,14 @@ function BMW_5() {
     <div className={cx('bmw-container')}>
       <div className={cx('bmw-content')}>
         <div className={cx('card-image')} style={{ position: 'relative' }}>
-          <a href="" title="Hiển thị thêm">
+          <a href="/pages/details/5_series" title="Hiển thị thêm">
             <div className={cx('picture')}>
               <img src={bmw_5} alt="bmw_5" />
             </div>
           </a>
         </div>
         <div className={cx('card-entry')}>
-          <a href="">
+          <a href="/pages/details/5_series">
             <span style={{ fontSize: '20px' }} className={cx('card-heading')}>
               BMW 5 Series
             </span>

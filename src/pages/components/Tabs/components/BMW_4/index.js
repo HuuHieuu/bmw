@@ -10,14 +10,14 @@ function BMW_4() {
       {/* mui trần */}
       <div className={cx('bmw-content')}>
         <div className={cx('card-image')} style={{ position: 'relative' }}>
-          <a href="" title="Hiển thị thêm">
+          <a href="/pages/details/4_series_mui_tran" title="Hiển thị thêm">
             <div className={cx('picture')}>
               <img src={bmw_4_mt} alt="bmw_4_mt" />
             </div>
           </a>
         </div>
         <div className={cx('card-entry')}>
-          <a href="">
+          <a href="/pages/details/4_series_mui_tran">
             <span style={{ fontSize: '20px' }} className={cx('card-heading')}>
               BMW 4 Series Mui Trần
             </span>
@@ -31,14 +31,14 @@ function BMW_4() {
       {/* gran coupe */}
       <div className={cx('bmw-content')}>
         <div className={cx('card-image')} style={{ position: 'relative' }}>
-          <a href="" title="Hiển thị thêm">
+          <a href="/pages/details/4_series_gran_coupé" title="Hiển thị thêm">
             <div className={cx('picture')}>
               <img src={bmw_4_gran} alt="bmw_4_gran" />
             </div>
           </a>
         </div>
         <div className={cx('card-entry')}>
-          <a href="">
+          <a href="/pages/details/4_series_gran_coupé">
             <span style={{ fontSize: '20px' }} className={cx('card-heading')}>
               BMW 4 Series Gran Coupé
             </span>

@@ -55,6 +55,7 @@ function TabFurIx3() {
   return (
     <TabComponent
       activeTab={activeTab}
+      prevTab={prevTab}
       activeTabIndex={activeTabIndex}
       tabItems={tabItems}
       imgEx={ix3_imgEx}

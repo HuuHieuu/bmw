@@ -11,14 +11,14 @@ function Sedan() {
     <div className={cx('bmw-container')}>
       <div className={cx('bmw-content')}>
         <div className={cx('card-image')} style={{ position: 'relative' }}>
-          <a href="/" title="Hiển thị thêm">
+          <a href="/pages/details/3_series" title="Hiển thị thêm">
             <div className={cx('picture')}>
               <img src={bmw_3} alt="bmw_3" />
             </div>
           </a>
         </div>
         <div className={cx('card-entry')}>
-          <a href="">
+          <a href="/pages/details/3_series">
             <span style={{ fontSize: '20px' }} className={cx('card-heading')}>
               THE NEW 3
             </span>
@@ -31,14 +31,14 @@ function Sedan() {
       </div>
       <div className={cx('bmw-content')}>
         <div className={cx('card-image')} style={{ position: 'relative' }}>
-          <a href="" title="Hiển thị thêm">
+          <a href="/pages/details/5_series" title="Hiển thị thêm">
             <div className={cx('picture')}>
               <img src={bmw_5} alt="bmw_5" />
             </div>
           </a>
         </div>
         <div className={cx('card-entry')}>
-          <a href="">
+          <a href="/pages/details/5_series">
             <span style={{ fontSize: '20px' }} className={cx('card-heading')}>
               BMW 5 Series
             </span>
@@ -51,14 +51,14 @@ function Sedan() {
       </div>
       <div className={cx('bmw-content')}>
         <div className={cx('card-image')} style={{ position: 'relative' }}>
-          <a href="" title="Hiển thị thêm">
+          <a href="/pages/details/7_series" title="Hiển thị thêm">
             <div className={cx('picture')}>
               <img src={bmw_7} alt="bmw_7" />
             </div>
           </a>
         </div>
         <div className={cx('card-entry')}>
-          <a href="">
+          <a href="/pages/details/7_series">
             <span style={{ fontSize: '20px' }} className={cx('card-heading')}>
               THE NEW 7
             </span>

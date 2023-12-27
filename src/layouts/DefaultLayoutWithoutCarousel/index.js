@@ -27,8 +27,10 @@ function DefaultLayoutWithoutCarousel() {
           {/* logo */}
           <div className={cx('logo')}>
             <a href="/">
-              <img src={bmw_logo} alt="logo-bmw" />
-              <span>BMW Hà Nội</span>
+              <div className={cx('logo-b')}>
+                <img src={bmw_logo} alt="logo-bmw" />
+                <span>BMW Hà Nội</span>
+              </div>
             </a>
           </div>
           {/* menu */}
@@ -45,29 +47,17 @@ function DefaultLayoutWithoutCarousel() {
                     Trang chủ
                   </a>
                 </li>
+
                 <li>
-                  <a href="/">
-                    {/* <img src={bmw_logo} alt="logo-bmw" /> */}
-                    <FontAwesomeIcon icon={faInfoCircle} className={cx('icon-menu-open')} />
-                    Giới thiệu
-                  </a>
-                </li>
-                <li>
-                  <a href="/">
+                  <a href="/pages/mau-xe">
                     {/* <img src={bmw_logo} alt="logo-bmw" /> */}
                     <FontAwesomeIcon icon={faCar} className={cx('icon-menu-open')} />
                     Mẫu xe
                   </a>
                 </li>
+
                 <li>
-                  <a href="/">
-                    {/* <img src={bmw_logo} alt="logo-bmw" /> */}
-                    <FontAwesomeIcon icon={faNewspaper} className={cx('icon-menu-open')} />
-                    Tin tức
-                  </a>
-                </li>
-                <li>
-                  <a href="/">
+                  <a href="/pages/contact">
                     {/* <img src={bmw_logo} alt="logo-bmw" /> */}
                     <FontAwesomeIcon icon={faPhone} className={cx('icon-menu-open')} />
                     Liên lạc
